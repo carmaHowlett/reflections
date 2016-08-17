@@ -1,0 +1,33 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    cd to correct directory, run the command: diff -u filename.type filename2.type
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    That way you can spot differences in any changes that might of been made as well as be able to determine any issues that could be causing errors. It will make things more organized and efficient when the entire history of the file is saved.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    This way your version history will not get cluttered with potential commits that are very similar. Choosing when to commit allows the user to control when to commit after major changes have been made. This will allow for some extra organization and backup of my work.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    So that you can see all of the required files that have been used to make the parent file work successfully. This is a neat way of organizing all of the modifications that have been made since project inception to completion.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    First, it terminal, cd to the correct repository. Once there, use “git log” do view all of the file commits. To spot the number of differences between two commits, hit q to quit the log and type in “git diff file.name1 file.name2” to view what changes were made between those two commits. To change git to add auto colour use: git config --global color.ui auto
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Because using version control will allow me to easily go in to my previous versions and see where a mistake was made or where the file became broken at some point.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I’d like to try using Git for a project that I work on for carma (bigger project).
